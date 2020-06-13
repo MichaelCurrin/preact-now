@@ -9,9 +9,17 @@ Demo site:
 - https://preact-now.michaelcurrin.now.sh/
 
 
+## Requirements
+
+- [vercel.com](https://vercel.com) account
+- Local dev:
+    - Node.js / NPM
+    - [Vercel CLI](https://vercel.com/download)
+
+
 ## Setup your own
 
-Deploy your own Preact project with Vercel.
+Create and deploy your own Preact project hosted on Vercel as a server-side application - great for SESO.
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/zeit/now/tree/master/examples/preact)
 
@@ -24,9 +32,7 @@ Here is their live sample:
 
 ## Create a fresh project
 
-Use this project as a template
-
-Or get started with Preact for deployment with Vercel, you can use the [Preact CLI](https://github.com/preactjs/preact-cli) to initialize the project:
+Use this project as a template, or get started with Preact for deployment with Vercel, you can use the [Preact CLI](https://github.com/preactjs/preact-cli) to initialize the project:
 
 ```shell
 $ preact create default my-project
@@ -34,6 +40,8 @@ $ preact create default my-project
 
 
 ## Deploy
+
+How to deploy a Vercel-based application.
 
 ### Deploy from your terminal
 
