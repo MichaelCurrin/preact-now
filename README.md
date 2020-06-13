@@ -9,7 +9,7 @@ Demo site:
 - https://preact-now.michaelcurrin.now.sh/
 
 
-## Deploy your own
+## Setup your own
 
 Deploy your own Preact project with Vercel.
 
@@ -33,7 +33,9 @@ $ preact create default my-project
 ```
 
 
-## Deploy from your terminal
+## Deploy
+
+### Deploy from your terminal
 
 You can deploy your new Preact project with a single command from your terminal using [Vercel CLI](https://vercel.com/download):
 
@@ -44,8 +46,8 @@ $ vercel
 Note that this requires registering on the Vercel site and credentials to be setup locally (so only you can deploy to your site).
 
 
-## How to deploy with git
+### Continous deployment
 
-Simply commit to the repo will not auto deploy. So see this guide:
+You can use a Github integration to trigger a deploy when a commit appears on Github.
 
 - https://vercel.com/docs/v2/git-integrations
