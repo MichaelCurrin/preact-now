@@ -6,17 +6,17 @@ This is brief example of a [Preact](https://preactjs.com/) app that can be deplo
 
 Demo site: 
 
-- https://preact-now.michaelcurrin.now.sh/
+- https://preact-now.michaelcurrin.now.sh
 
 New to Preact? See the [Getting started](https://preactjs.com/guide/v10/getting-started) guide.
 
 
 ## Requirements
 
-- [vercel.com](https://vercel.com) account
+- [vercel.com](https://vercel.com) account - previously known as Now
 - Local dev:
     - Node.js / NPM
-    - [Vercel CLI](https://vercel.com/download) (to create project and to push deploys)
+    - [Vercel CLI](https://vercel.com/download) NPM package - to create project and to push deploys
 
 
 ## Setup your own
@@ -58,12 +58,29 @@ Note that this requires registering on the Vercel site and credentials to be set
 
 ### Continous deployment
 
+#### Integration
+
 You can use a Github integration to trigger a deploy when a commit appears on Github.
 
 - https://vercel.com/docs/v2/git-integrations
+
+#### Deploys
 
 See the current and past deploys for this repo:
 
 - https://github.com/MichaelCurrin/preact-now/deployments
 
 Note this is similar to the Environment section used for Github Pages but is separate.
+
+#### URLs
+
+There are many URLs available on a single commit. For example, from [commit](https://github.com/MichaelCurrin/preact-now/commit/a07469a98f0d6d2709a3287c3a3bc28046d0974e#commitcomment-39878578).
+
+- Vercel:
+    - https://preact-now-4lexz5ooy.vercel.app
+    - https://preact-now.michaelcurrin.vercel.app
+    - https://preact-now-git-master.michaelcurrin.vercel.app
+- Now
+    - https://preact-now-deploy.now.sh
+    - https://preact-now.michaelcurrin.now.sh
+    - https://preact-now-git-master.michaelcurrin.now.sh
