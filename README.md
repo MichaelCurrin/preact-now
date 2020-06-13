@@ -8,13 +8,15 @@ Demo site:
 
 - https://preact-now.michaelcurrin.now.sh/
 
+New to Preact? See the [Getting started](https://preactjs.com/guide/v10/getting-started) guide.
+
 
 ## Requirements
 
 - [vercel.com](https://vercel.com) account
 - Local dev:
     - Node.js / NPM
-    - [Vercel CLI](https://vercel.com/download)
+    - [Vercel CLI](https://vercel.com/download) (to create project and to push deploys)
 
 
 ## Setup your own
@@ -59,3 +61,9 @@ Note that this requires registering on the Vercel site and credentials to be set
 You can use a Github integration to trigger a deploy when a commit appears on Github.
 
 - https://vercel.com/docs/v2/git-integrations
+
+See the current and past deploys for this repo:
+
+- https://github.com/MichaelCurrin/preact-now/deployments
+
+Note this is similar to the Environment section used for Github Pages but is separate.
